@@ -79,6 +79,7 @@ The analysis follows a practical machine learning workflow:
 
 <img width="1428" height="1060" alt="{B3A88774-6159-4ACA-9D14-04C1BA66A941}" src="https://github.com/user-attachments/assets/08048701-88d2-44e5-bfcb-9734d5d22929" />
 
+<img width="1591" height="1033" alt="{01CA76CA-F377-4D63-977C-5F535D8C4621}" src="https://github.com/user-attachments/assets/3949a2d4-60aa-4d40-9316-740216ddf656" />
 
 
 
