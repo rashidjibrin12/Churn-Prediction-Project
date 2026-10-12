@@ -1,19 +1,11 @@
-# Customer Churn Prediction — Telco Retention Analytics
+# Customer Churn Prediction - Telco Retention Analytics
 
-A portfolio-style machine learning project focused on predicting customer churn in the telecommunications industry and translating model insights into actionable business recommendations.
+A machine learning project focused on predicting customer churn in the telecommunications industry and translating model insights into actionable business recommendations.
 
 ## Project Overview
 Customer churn is one of the most important challenges for subscription-based businesses. In telecom, churn is especially costly because customer acquisition is expensive, switching costs are low, and lost subscribers often create a compounding revenue impact across multiple service lines.
 
-This project builds an end-to-end churn prediction pipeline using the Telco Customer Churn dataset. The workflow includes:
-- data cleaning and preprocessing
-- exploratory data analysis
-- feature engineering
-- model comparison and validation
-- explainable AI using SHAP
-- business-focused recommendations for retention strategy
-
-The goal is not only to predict churn, but to identify the strongest drivers of churn and turn them into practical retention actions for a telecom business.
+This project builds an end-to-end churn prediction pipeline using the Telco Customer Churn dataset. The goal is not only to predict churn, but to identify the strongest drivers of churn and turn them into practical retention actions for a telecom business.
 
 ## Business Questions
 This analysis was designed to answer the following questions:
@@ -37,11 +29,11 @@ This analysis was designed to answer the following questions:
 ## Tools Used
 - Python
 - Jupyter Notebook
-- pandas
+- Pandas
 - NumPy
-- matplotlib
-- seaborn
-- scikit-learn
+- Matplotlib
+- Seaborn
+- Scikit-learn
 - XGBoost
 - SHAP
 - Kagglehub
@@ -53,9 +45,9 @@ The project uses the public Telco Customer Churn dataset from Kaggle.
 Dataset characteristics:
 - 7,043 customer records
 - 21 original features
-- target variable: Churn (Yes/No)
-- mixed categorical and numerical variables
-- includes contract type, payment method, service usage, pricing, tenure, and customer status
+- Target variable: Churn (Yes/No)
+- Mixed categorical and numerical variables
+- Includes contract type, payment method, service usage, pricing, tenure, and customer status
 
 This dataset is a strong fit for churn analysis because it captures both behavioral and commercial signals that influence customer retention.
 
@@ -63,27 +55,27 @@ This dataset is a strong fit for churn analysis because it captures both behavio
 The analysis follows a practical machine learning workflow:
 
 1. Data loading and inspection
-   - downloaded the Kaggle dataset
-   - reviewed columns, data types, and target distribution
+   - Downloaded the Kaggle dataset
+   - Reviewed columns, data types, and target distribution
 
 2. Data cleaning
-   - corrected data type issues such as string-based TotalCharges
-   - handled missing values
-   - removed non-predictive identifiers like customerID
+   - Corrected data type issues such as string-based TotalCharges
+   - Handled missing values
+   - Removed non-predictive identifiers like customerID
 
 3. Feature engineering
-   - transformed Yes/No variables into binary numeric values
-   - converted categorical fields into model-ready formats
-   - created derived features such as tenure groups and monthly charge groups
-   - engineered TotalChargesPerMonth to capture customer value patterns
+   - Transformed Yes/No variables into binary numeric values
+   - Converted categorical fields into model-ready formats
+   - Created derived features such as tenure groups and monthly charge groups
+   - Engineered TotalChargesPerMonth to capture customer value patterns
 
 4. Model development
-   - compared multiple models including Logistic Regression, Balanced Logistic Regression, Random Forest, and XGBoost
-   - assessed each model on prediction quality and business relevance
+   - Compared multiple models including Logistic Regression, Balanced Logistic Regression, Random Forest, and XGBoost
+   - Assessed each model on prediction quality and business relevance
 
 5. Model interpretation
-   - used SHAP values to explain the contribution of features to churn risk
-   - linked predictions back to customer behavior and product factors
+   - Used SHAP values to explain the contribution of features to churn risk
+   - Linked predictions back to customer behavior and product factors
 
 ## Key Findings
 The notebook reveals several recurring churn patterns that are highly relevant to telecom retention strategy:
@@ -117,4 +109,4 @@ This project demonstrates how machine learning can move beyond prediction and be
 - `README.md` — project summary and portfolio documentation
 
 ## Summary
-This project presents a complete churn analytics workflow: clean data, engineer value-driving features, compare machine learning models, and translate predictive power into business-ready insights. It is a strong example of applied data science for customer retention and strategic decision-making in a telecom context.
+This project follows a complete churn analytics workflow; clean the data, engineer value-driving features, compare machine learning models, and translate predictive power into business-ready insights. 
