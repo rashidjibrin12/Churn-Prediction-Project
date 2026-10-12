@@ -77,11 +77,21 @@ The analysis follows a practical machine learning workflow:
    - Used SHAP values to explain the contribution of features to churn risk
    - Linked predictions back to customer behavior and product factors
 
-<img width="1428" height="1060" alt="{B3A88774-6159-4ACA-9D14-04C1BA66A941}" src="https://github.com/user-attachments/assets/08048701-88d2-44e5-bfcb-9734d5d22929" />
+## Visual Insights
 
-<img width="1591" height="1033" alt="{01CA76CA-F377-4D63-977C-5F535D8C4621}" src="https://github.com/user-attachments/assets/3949a2d4-60aa-4d40-9316-740216ddf656" />
+### Model Performance Comparison
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/08048701-88d2-44e5-bfcb-9734d5d22929" alt="Model performance comparison chart" width="900" />
+</p>
 
+The model comparison highlights the relative performance of individual classifiers. XGBoost provides the strongest balance of predictive power and business applicability, making it the best-performing model for churn detection in this project.
 
+### SHAP Feature Importance
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3949a2d4-60aa-4d40-9316-740216ddf656" alt="SHAP feature importance for churn drivers" width="900" />
+</p>
+
+The SHAP summary shows that contract type, monthly charges, service quality, and tenure are the most influential drivers of churn. These insights help translate the model into actionable retention strategies.
 
 ## Key Findings
 The notebook reveals several recurring churn patterns that are highly relevant to telecom retention strategy:
@@ -115,4 +125,4 @@ This project demonstrates how machine learning can move beyond prediction and be
 - `README.md` — project summary and portfolio documentation
 
 ## Summary
-This project follows a complete churn analytics workflow; clean the data, engineer value-driving features, compare machine learning models, and translate predictive power into business-ready insights. 
+This project follows a complete churn analytics workflow: clean the data, engineer value-driving features, compare machine learning models, and translate predictive power into business-ready insights. It is a strong example of applied data science for customer retention and strategic decision-making in a telecom context.
