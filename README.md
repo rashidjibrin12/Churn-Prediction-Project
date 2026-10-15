@@ -1,7 +1,5 @@
 # Customer Churn Prediction - Telco Retention Analytics
 
-A machine learning project focused on predicting customer churn in the telecommunications industry and translating model insights into actionable business recommendations.
-
 ## Project Overview
 Customer churn is one of the most important challenges for subscription-based businesses. In telecom, churn is especially costly because customer acquisition is expensive, switching costs are low, and lost subscribers often create a compounding revenue impact across multiple service lines.
 
